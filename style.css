@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    background: #fcf9fd;
+    border-bottom: 1px solid lightGray;
+    border-top: 2px solid indigo;
+    height: 15px;
+    margin: 0px;
+    padding: 15px;
+}
+  
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+  
+.nav-item a{
+    color: dimGray;
+    font-weight: 500;
+    margin: 30px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#Current-page a{
+    color: indigo;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    border-right: 1px solid #d6d6d6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    border-style: ridge;
+}
+
+#Name {
+    font-size: 28px;
+    font-weight: 200;
+    margin: auto;
+}
+
+#Description {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 20px;
+}
+
+.link {
+    color: indigo;
+    text-decoration: none;
+}
+
+.right-side {
+    padding-bottom: 400px;
+    padding-left: 50px;
+}
+
+#Title {
+    color: dimgray;
+    font-size: 36px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+.footer {
+    border-top: 1px solid #d6d6d6;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side {
+        border-bottom: 1px solid #d6d6d6;
+        padding: 40px 5px;
+        text-align: center;
+    }
+
+    .right-side {
+        padding-bottom: 400px;
+        padding-left: 5px;
+    }
+}
+
+/*
+ * Any code past this point only applies to certain pages
+ */
+.progress-bar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-bar-container progress {
+    height: 30px;
+    width: 500px;
+}
+
+.progress-bar-container label {
+    color: #444444;
+    font-weight: 600;
+}
+
+/*
+ * List of chronological data in education.html and experience.html
+ */
+.chronological-data-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.chronological-data {
+    color: #3b3b3b;
+    margin-bottom: 30px;
+}
+
+.chronological-subdata {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+
+.chronological-subdata-header {
+    font-size: 20px;
+}
+
+/*
+ * .list class is for list of data shown in interests.html
+ */
+.list {
+    padding-left: 15px;
+    list-style-type: "- ";
+}
+
+.list li {
+    color: #2e2e2e;
+    margin-bottom: 30px;
+}
+
+/*
+ * Biography in experience.html
+ */
+#Biography {
+    color: gray;
+    margin-top: 100px;
+}
+
+/*
+ * Credentials in education.html
+ */
+#Credentials {
+    color: gray;
+    margin-top: 150px;
+}
