@@ -1,5 +1,5 @@
 # eddie-an.github.io
-Hi, welcome to my first web development project. In this project I made a simple website about me.
+Hi, welcome to my first web development project. In this project, I made a simple website about myself.
 
 [Website Link](https://eddie-an.github.io/)
 
